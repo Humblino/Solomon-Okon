@@ -1,0 +1,89 @@
+*{
+    margin: 2px 0;
+}
+body{
+    background-color: rgb(236, 252, 252);
+    margin: 100px 0;
+    font-family: sans-serif, inter;
+}
+.parent{
+    display: flex;
+    width: 100%;
+    height: 200%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.parent>div{
+    padding: 40px;
+
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+.title>h1{
+    color: blue;
+    font-size: 40px;
+}
+.title>p{
+    text-align: left;
+    font-size: 15px;
+}
+.parent-form{
+    width: 25%;
+    height: fit-content;
+    box-sizing: border-box;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: white;
+    width: 155%;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px gray;
+}
+div>input, #login{
+    box-sizing: border-box;
+    width: 250px;
+    height: 35px;border-radius: 5px;
+    align-items: center;
+}
+div>input{
+    border: 1px solid gray;
+}
+#login{
+    background-color: rgb(2, 165, 2);
+    color: white;
+    border: none;
+}
+#forgot-pass{
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    color: blue;
+}
+#create{
+    background-color: rgb(50, 50, 250);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    width: 60%;
+    height: 35px;
+    box-sizing: border-box;
+}
+input::placeholder{
+    padding: 6px;
+}
+#footer-text{
+    font-size: 12px;
+    padding: 10px;
+    text-align: justify;
+    text-wrap: nowrap;
+}
