@@ -1,0 +1,51 @@
+.Paragraph{
+  text-align: left;
+  gap: none;
+  font-size: 14px;
+  margin: 2%;
+  display: block;
+  padding: 0%;
+  line-height: 0.2;
+}
+.Button-Container{
+  margin: 0px;
+  padding: 0px;
+  width:  390px;
+  height:  25.91px;
+  border-radius: 5px;
+  gap: 20px;
+  align-items: center;
+}
+.follow-button{
+  background-color: rgb(10, 95, 255);
+  width: 150.29px;
+  height: 25.91px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 0%;
+  align-items: center;
+}
+.message-button{
+  background-color: whitesmoke;
+  width: 150.29px;
+  height: 25.91px;
+  color: rgba(0, 0, 0, 0.89);
+  border-radius: 5px;
+  border: none;
+  padding: 0%;
+  align-items: center;
+
+}
+.icon-button{
+  width: 25.91px;
+  height: 25.91px;
+  background-color: whitesmoke;
+  align-items: center;
+  border-radius: 5px;
+  border: none;
+}
+.face-icon{
+  max-width: 15px;
+  align-items: center;
+}
