@@ -1,4 +1,4 @@
-import useState from 'react-dom'
+import useState from 'react-dom/client'
 import faceIcon from "./assets/faceIcon.png"
 
 function Button(){
@@ -15,13 +15,10 @@ function Button(){
                 <button className = "follow-button">Follow</button>
                 <button className = "message-button">Message</button>
                 <button className = "icon-button">
-                    <img  className="face-icon"src= {faceIcon} alt =""></img>
+                    <img  className="face-icon"src= {faceIcon} alt ="face-icon"></img>
                 </button>
             </div>
         </>
-    
-    
     );
-
 }
 export default Button
