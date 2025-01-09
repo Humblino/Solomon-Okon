@@ -1,51 +1,77 @@
-.Paragraph{
-  text-align: left;
-  gap: none;
-  font-size: 14px;
-  margin: 2%;
-  display: block;
-  padding: 0%;
-  line-height: 0.2;
+body{
+  background-color: rgb(240, 240, 240);
+  text-align: center;
+  
 }
-.Button-Container{
-  margin: 0px;
-  padding: 0px;
-  width:  390px;
-  height:  25.91px;
-  border-radius: 5px;
-  gap: 20px;
-  align-items: center;
-}
-.follow-button{
-  background-color: rgb(10, 95, 255);
-  width: 150.29px;
-  height: 25.91px;
-  color: white;
-  border-radius: 5px;
-  border: none;
-  padding: 0%;
-  align-items: center;
-}
-.message-button{
-  background-color: whitesmoke;
-  width: 150.29px;
-  height: 25.91px;
-  color: rgba(0, 0, 0, 0.89);
-  border-radius: 5px;
-  border: none;
-  padding: 0%;
-  align-items: center;
+.container{
+  width:400px;
+  height: 600px;
+  padding: 20px 20px;
+  border-radius: 15px;
+  text-align: center;
+  margin-bottom: 25px;
+  border: 10px;
+  transition: 0.2s;
+  background-color: white;
 
 }
-.icon-button{
-  width: 25.91px;
-  height: 25.91px;
-  background-color: whitesmoke;
-  align-items: center;
-  border-radius: 5px;
-  border: none;
+h1{
+  font-size: large;
+  text-align: center;
+  color: blueviolet;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
 }
-.face-icon{
-  max-width: 15px;
-  align-items: center;
+p{
+  margin-top: 0%;
+  
+}
+label{
+  font-size: 15px;
+  display: block;
+  width: 200px;
+  text-align: left;
+  font-weight: bold;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  color: blueviolet;
+}
+input{
+  display: block;
+  width: 400px;
+  padding: 5px;
+  margin-bottom: 5px;
+  text-align: justify;
+  border-radius: 5px;
+  border: 15px;
+  color: black;
+  background-color: rgb(240, 240, 240);
+}
+.dob{
+  font-size: 12px;
+  display: inline;
+  width: 200px;
+  text-align: left;
+  font-weight: bold;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  color: blueviolet;
+}
+
+.sign-up{
+  background-color: green;
+  color: white;
+  height: 30px;
+  width: 75px;
+  border: none;
+  border-radius: 5px;
+}
+input[type='radio'] {
+  display: inline;
+  width: 70px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.paragraph{
+  font-size: 13px;
 }
