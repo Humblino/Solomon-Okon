@@ -1,77 +1,84 @@
 body{
-  background-color: rgb(240, 240, 240);
-  text-align: center;
-  
+    background-color: gray;
 }
 .container{
-  width:400px;
-  height: 600px;
-  padding: 20px 20px;
-  border-radius: 15px;
-  text-align: center;
-  margin-bottom: 25px;
-  border: 10px;
-  transition: 0.2s;
-  background-color: white;
+    background-color: aliceblue;
+    align-items: center;
+    width: 500px;
+    height: 600px;border: 3px;
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+}
+.form-title{
+margin-left: 25px;
+padding: 0%;
+align-items: center;
 
 }
 h1{
-  font-size: large;
-  text-align: center;
-  color: blueviolet;
-  padding-bottom: 0%;
-  margin-bottom: 0%;
+margin-bottom: 0%;
+padding-top: 30px;
+    
 }
-p{
-  margin-top: 0%;
-  
+.para{
+ margin-top: 0%;
 }
-label{
-  font-size: 15px;
-  display: block;
-  width: 200px;
-  text-align: left;
-  font-weight: bold;
-  margin-right: 10px;
-  margin-bottom: 5px;
-  color: blueviolet;
+.input{
+    width: 220px;
+    height: 25px;
+    margin: 10px;
 }
-input{
-  display: block;
-  width: 400px;
-  padding: 5px;
-  margin-bottom: 5px;
-  text-align: justify;
-  border-radius: 5px;
-  border: 15px;
-  color: black;
-  background-color: rgb(240, 240, 240);
+.calender{
+    display: flex;
+    gap: 28px;
+    margin-left: 10px;
 }
-.dob{
-  font-size: 12px;
-  display: inline;
-  width: 200px;
-  text-align: left;
-  font-weight: bold;
-  margin-right: 10px;
-  margin-bottom: 5px;
-  color: blueviolet;
+.cal{
+    width: 140px;
+    height: 30px;
+}
+h5{
+    margin-bottom: 0%;
+    text-align: left;
+    margin-left: 10px;
+    font-size: medium;
+}
+.gender{
+width: 250px;
 }
 
-.sign-up{
-  background-color: green;
-  color: white;
-  height: 30px;
-  width: 75px;
-  border: none;
-  border-radius: 5px;
+.password{
+    width: 465px;
+    height: 25px;
+    margin: 5px;
+
 }
-input[type='radio'] {
-  display: inline;
-  width: 70px;
-  font-size: 20px;
-  margin-bottom: 10px;
+.number{
+    width: 465px;
+    height: 25px;
+    margin: 5px;
 }
-.paragraph{
-  font-size: 13px;
+.last{
+    padding-top:  0%;
+    color: blueviolet;
+    margin-top: 0%;
+}
+.sign{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    height: 25px;
+    width: 150px;
+}
+.description{
+    font-size: 14px;
+    text-align: left;
+    margin-left: 10px;
+}
+.labelholder{
+    gap: 55px;
+    display: flex;
+    margin: 10px;
 }
